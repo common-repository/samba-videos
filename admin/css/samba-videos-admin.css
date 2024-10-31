@@ -1,0 +1,144 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Samba Videos Media Gallery */
+
+.samba-videos-gallery * { box-sizing: border-box;}
+.samba-videos-gallery {
+	box-sizing: border-box;
+	background-color: #FFF;
+}
+
+.samba-videos-gallery .media-toolbar .search {
+	width: 80%;
+	width: calc(100% - 80px);
+}
+
+.samba-videos-gallery .media-toolbar {
+	border-bottom: 1px solid #dfdfdf;
+	-webkit-box-shadow: 0 4px 4px -4px rgba(0,0,0,.1);
+	box-shadow: 0 4px 4px -4px rgba(0,0,0,.1);
+	right: 0px !important;
+}
+
+.samba-videos-gallery .media-toolbar .button-filter {
+	width: 63px;
+	margin-top: 10px;
+	margin-left:5px;
+}
+
+.samba-videos-gallery .attachments {
+	top:50px;
+	right: 0px !important;
+}
+
+.samba-videos-gallery .attachments .thumbnail img {
+	height: 100%;
+}
+
+.samba-videos-gallery .sv-loading {
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index: 10000;
+	background-color: rgba(255,255,255,0.9);
+	background-image: url(../images/spinner.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.samba-videos-gallery .no-content {
+	position: absolute;
+	top:50%;
+	right: 0;
+	left:0;
+	text-align: center;
+	font-size: 1.7em;
+	color:#AAA;
+	background: url(../images/notfound-search-icon.png) 50% 0 no-repeat;
+	padding-top:71px;
+	margin-top: -71px;
+}
+
+/* Samba Videos Media Preview */
+.sv-media-preview * { box-sizing: border-box;}
+
+.sv-media-preview iframe {
+	margin:0;
+	padding:0;
+	display: block;
+}
+
+.sv-media-preview{
+ 	box-sizing: border-box;
+ 	position: absolute; 
+ 	top: 0; 
+ 	bottom: 0; 
+ 	left: 0; 
+ 	right: 0; 
+ 	z-index: 1000000;
+ 	background-color: #FFF;
+
+}
+
+.sv-container {
+	padding:10px;
+}
+
+.sv-media-preview .side-left {
+	position: absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	width: 660px;
+	min-height:100%;
+}
+
+.sv-media-preview .side-right {
+	position: absolute;
+	left: 660px;
+	top:0;
+	right: 0;
+	bottom:0;
+	padding:10px;
+	min-height:100%;
+	border-left: 1px solid #dfdfdf;
+	-webkit-box-shadow: 0 4px 4px -4px rgba(0,0,0,.1);
+	box-shadow: 0 4px 4px -4px rgba(0,0,0,.1);
+	background-color:#EFEFEF;
+}
+
+.sv-media-preview .side-right .title {
+	margin-top: 5px;
+}
+
+.sv-media-preview .borderBottom {
+	border-bottom: 1px solid #dfdfdf;
+	-webkit-box-shadow: 0 4px 4px -4px rgba(0,0,0,.1);
+	box-shadow: 0 4px 4px -4px rgba(0,0,0,.1);
+}
+
+.sv-toolbar-bottom .media-toolbar-primary {
+	width:100% !important;
+}
+
+.sv-toolbar-bottom .button-show-more{
+	position: absolute;
+	width: 120px;
+	left: 50%;
+	margin-left: -74px;
+}
+
+.sv-media-preview .title{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.sv-item .filename{
+	overflow: hidden;
+	max-height: 45px !important;
+}

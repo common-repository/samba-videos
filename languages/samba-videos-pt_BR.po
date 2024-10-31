@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sambavideos_wordpress_plugin\n"
+"POT-Creation-Date: 2016-03-24 09:39-0300\n"
+"PO-Revision-Date: 2016-03-24 09:40-0300\n"
+"Last-Translator: \n"
+"Language-Team: Jeferson Moura <jeferson.moura@sambatech.com.br>\n"
+"Language: pt_br\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/class-samba-videos-utilities.php:136
+msgid "Error Processing Request"
+msgstr "Erro ao processar requisição"
+
+#: ../includes/class-samba-videos-notification.php:101
+#: ../includes/class-samba-videos-notification.php:120
+msgid "The parameter \"access_token\" has not been found."
+msgstr "O parâmetro \"access_token\" não foi encontrado."
+
+#: ../includes/class-samba-videos-notification.php:106
+msgid "There is an access_token activated."
+msgstr "Já existe um access_token ativo."
+
+#: ../includes/class-samba-videos-notification.php:109
+msgid "The access_token was added successfully."
+msgstr "O access_token foi inserido com sucesso."
+
+#: ../includes/class-samba-videos-notification.php:128
+msgid "The access_token was removed successfully."
+msgstr "O access_token foi removido com sucesso."
+
+#: ../includes/class-samba-videos-notification.php:130
+msgid "There has been an error in removing."
+msgstr "Teve um erro na remoção."
+
+#: ../includes/class-samba-videos-notification.php:134
+msgid "This access_token was not still registered."
+msgstr "O access_token ainda não foi cadastrado."
+
+#: ../includes/class-samba-videos-templates.php:15
+msgid "Search"
+msgstr "Pesquisar"
+
+#: ../includes/class-samba-videos-templates.php:16
+msgid "Filter"
+msgstr "Filtrar"
+
+#: ../includes/class-samba-videos-templates.php:20
+msgid "Have been not found any media."
+msgstr "Não foi encontrada nenhuma mídia."
+
+#: ../admin/class-samba-videos-admin.php:79
+#, fuzzy
+msgid "Samba Videos Gallery"
+msgstr "Galeria Samba Videos"
+
+#: ../admin/class-samba-videos-admin.php:80
+msgid "Select"
+msgstr "Selecionar"
+
+#: ../admin/class-samba-videos-admin.php:81
+msgid "Back to gallery"
+msgstr "Voltar para Galeria"
+
+#: ../admin/class-samba-videos-admin.php:82
+msgid "Show more"
+msgstr "Mostrar mais"
+
+#: ../admin/class-samba-videos-admin.php:116
+msgid "First, you have to set up an app on Samba Videos"
+msgstr "Primeiro você deve configurar uma app no Samba Vídeos"
+
+#: ../admin/class-samba-videos-admin.php:135
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+#: ../admin/class-samba-videos-admin-settings-screen.php:76
+#: ../admin/class-samba-videos-admin-settings-form.php:144
+msgid "There is an internal error. Contact Samba Videos support!"
+msgstr "Tem um erro interno. Entre em contato com o suporte do Samba Vídeos!"
+
+#: ../admin/class-samba-videos-admin-settings-screen.php:100
+msgid "You have to select a Samba Videos project."
+msgstr "Você tem que selecionar um projeto do Samba Vídeos."
+
+#: ../admin/class-samba-videos-admin-settings-screen.php:107
+msgid "Width cannot be set at less than 320."
+msgstr "O width não pode ser menor que 320."
+
+#: ../admin/class-samba-videos-admin-settings-screen.php:114
+msgid "Height cannot be set at less than 168."
+msgstr "O Height não pode ser menor que 168."
+
+#: ../admin/class-samba-videos-admin-settings-screen.php:128
+msgid "Age cannot exceed 100."
+msgstr "A idade não pode ser maior que 100."
+
+#: ../admin/class-samba-videos-admin-settings-screen.php:136
+msgid "The volume must be between 0 and 100."
+msgstr "O volume deve ser entre 0 e 100."
+
+#: ../admin/class-samba-videos-admin-display.php:44
+msgid ""
+"There is an internal error in Samba Videos plugin. Deactivate it and contact "
+"our support!"
+msgstr ""
+"Tem um erro interno no plugin Samba Videos. Desative-o e entre em contato "
+"com nosso suporte!"
+
+#: ../admin/class-samba-videos-admin-settings-form.php:48
+msgid "Project"
+msgstr "Projeto"
+
+#: ../admin/class-samba-videos-admin-settings-form.php:53
+msgid "Project name"
+msgstr "Nome do projeto"
+
+#: ../admin/class-samba-videos-admin-settings-form.php:64
+msgid "Video width"
+msgstr "Largura do vídeo"
+
+#: ../admin/class-samba-videos-admin-settings-form.php:74
+msgid "Video height"
+msgstr "Altura do vídeo"
+
+#: ../admin/class-samba-videos-admin-settings-form.php:84
+msgid "Force Player Samba to play in HTML5 in supported browsers and devices."
+msgstr ""
+"Força o Player Samba a tocar em modo HTML5 em browsers e dispositivos "
+"suportados."
+
+#: ../admin/class-samba-videos-admin-settings-form.php:95
+msgid "Displays the Chromecast option in Google Chrome."
+msgstr "Apresenta a opção de Chromecast no Google Chrome"
+
+#: ../admin/class-samba-videos-admin-settings-form.php:106
+msgid "Activates the age restriction behavior of the player."
+msgstr "Ativa o comportamento de restrição de idade do player."
+
+#: ../admin/class-samba-videos-admin-settings-form.php:116
+msgid "Activates the resume behavior of the player."
+msgstr "Ativa o comportamento de resume do player."
+
+#: ../admin/class-samba-videos-admin-settings-form.php:127
+msgid "Sets whether the player will automatically start or not after loading."
+msgstr "Define se o player inicia automaticamente ou não após carregado."
+
+#: ../admin/class-samba-videos-admin-settings-form.php:138
+msgid ""
+"Parameter that allows you to assign the default  volume value of the player "
+"before the video starts playing."
+msgstr ""
+"Parâmetro que permite associar um valor pré-definido ao volume do player "
+"antes do vídeo começar a tocar."
+
+#~ msgid "Enter Text"
+#~ msgstr "Entre com texto"
+
+#~ msgid "The access_token was not removed."
+#~ msgstr "O access_token não foi removido."
+
+#~ msgid "Settings"
+#~ msgstr "Configurações"
+
+#~ msgid "Config Player Proxy must not be empty if Player Proxy is enabled."
+#~ msgstr ""
+#~ "Config Player Proxy não deve ser vazio se o Player Proxy estiver "
+#~ "habilitado."
+
+#~ msgid "Player Proxy is not enabled, cannot set Config Player Proxy."
+#~ msgstr ""
+#~ "Player Proxy não está habilitado, não pode definir Config Player Proxy."
+
+#~ msgid "Enable Proxy for Player URL"
+#~ msgstr "Habilitar Proxy para URL do Player"
+
+#~ msgid "Configuration of Proxy for Player URL."
+#~ msgstr "Configuração do Proxy para URL do Player."
+
+#~ msgid "Default"
+#~ msgstr "Padrão"
+
+#~ msgid "You can use these keywords"
+#~ msgstr "Você pode usar estas palavras chave"
+
+#~ msgid "---"
+#~ msgstr "---"
+
+#~ msgid "None"
+#~ msgstr "Nenhum"
+
+#~ msgid "The startOutput must be selected."
+#~ msgstr "Um startOutput deve ser selecionado."
+
+#~ msgid ""
+#~ "The gaAccount is not in accordance with the pattern, ex. UA-000000-01."
+#~ msgstr "O gaAccount não está de acordo com o padrão, ex. UA-000000-01."
+
+#~ msgid "Enter the siteURL"
+#~ msgstr "Insira o siteURL."
+
+#~ msgid "The siteURL is not a valid URL."
+#~ msgstr "O siteURL não é uma URL válida."
+
+#~ msgid "Enter the gaAccount"
+#~ msgstr "Insira o gaAccount."
+
+#~ msgid "Sets whether the player displays or not the control bar."
+#~ msgstr "Define se o player exibe ou não a barra de controle."
+
+#~ msgid "Sets whether the player displays or not the sharing options."
+#~ msgstr "Define se o player exibe ou não as opções de compartilhamento."
+
+#~ msgid ""
+#~ "Sets whether the player displays or not the sharing button with twitter "
+#~ "among the sharing options."
+#~ msgstr ""
+#~ "Define se o player exibe ou não o botão de compartilhamento com o twitter "
+#~ "nas opções de compartilhamento."
+
+#~ msgid ""
+#~ "Sets whether the player displays or not the sharing button with Facebook "
+#~ "among the sharing options"
+#~ msgstr ""
+#~ "Define se o player exibe ou não o botão de compartilhamento com o "
+#~ "Facebook nas opções de compartilhamento."
+
+#~ msgid ""
+#~ "Sets whether the player displays or not the sharing button for the embed "
+#~ "copy among the sharing options."
+#~ msgstr ""
+#~ "Define se o player exibe ou não o botão de compartilhamento para cópia do "
+#~ "embed do video nas opções de compartilhamento."
+
+#~ msgid ""
+#~ "Sets whether the player displays or not the sharing button for the "
+#~ "video's link among the sharing options."
+#~ msgstr ""
+#~ "Define se o player exibe ou não o botão de compartilhamento para cópia do "
+#~ "link do video nas opções de compartilhamento."
+
+#~ msgid ""
+#~ "Sets in which output format the player will start. Note: The video must "
+#~ "have the output format setted, or it will play as the default value set "
+#~ "for the project."
+#~ msgstr ""
+#~ "Define qual output o player iniciará tocando. Nota: É necessário que o "
+#~ "vídeo tenha o output indicado. Caso contrário, será tocado o valor "
+#~ "default do projeto."
+
+#~ msgid ""
+#~ "Parameter used for sending a tracking events:  loaded, started, first "
+#~ "quartile, mid point, third quartile and completed, for video  analysis "
+#~ "and viewing statistics with your Google Analytics account."
+#~ msgstr ""
+#~ "Parâmetro utilizado para enviar eventos de tracking: loaded, started, "
+#~ "first quartile, mid point, third quartile e completed, para análise de "
+#~ "estatísticas de visualização do video com sua conta do Google Analytics."
+
+#~ msgid ""
+#~ "URL that you want to send as referring to Google Analytics. Parameters "
+#~ "used to define a customized referring URL for submitting statistics to "
+#~ "Google Analytics."
+#~ msgstr ""
+#~ "URL que se deseja enviar como referring ao Google Analytics. Parâmetro "
+#~ "utilizado para definir uma referring URL customizada para envio de "
+#~ "estatísticas ao Google Analytics."
+
+#~ msgid ""
+#~ "Enable or Disable the Leads collector in a certain media. Note: Via "
+#~ "parameter, the Leads collector will appear only at the end of the video."
+#~ msgstr ""
+#~ "Ativa ou Desativa o coletor de Leads de uma determinada mídia. Nota: Via "
+#~ "parâmetro, o coletor de Leads é exibido somente ao fim da exibição do "
+#~ "video."
+
+#~ msgid "Project identifier"
+#~ msgstr "Identificador de projeto"
+
+#~ msgid "Example of textbox description"
+#~ msgstr "Exemplo de descrição de textbox"
+
+#~ msgid "Width"
+#~ msgstr "Largura"
+
+#~ msgid "Height"
+#~ msgstr "Altura"
